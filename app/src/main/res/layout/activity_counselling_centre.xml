@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CounsellingCentre">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-103dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        app:srcCompat="@drawable/counsellingsilverribbon" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Silver Ribbon Singapore"
+                        android:textColor="#FFC107"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/silweb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="www.silverribbonsingapore.com"
+                        android:textColor="#3F51B5"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="Free basic counselling services in person. Weekdays only, from 9am to 5pm. Appointments required."
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textStyle="italic" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Address: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/silver1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Blk 208 Serangoon Central, #01-238, Singapore 550208"
+                            android:textColor="#3F51B5"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Telephone: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/silnum1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:onClick="showDialog"
+                            android:text="6386 1928"
+                            android:textColor="#3F51B5" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.1dp"
+                        android:layout_marginLeft="0dp"
+
+                        android:layout_marginTop="5dp"
+                        android:background="#000000" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Address: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/silver2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Wisma Geylang Serai, 1 Engku Aman Turn Level 4, Singapore 408528"
+                            android:textColor="#3F51B5"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="10dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Telephone: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/silnum2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:onClick="showDialog1"
+                            android:text="6509 0271"
+                            android:textColor="#3F51B5" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.1dp"
+                        android:layout_marginLeft="0dp"
+
+                        android:layout_marginTop="5dp"
+                        android:background="#000000" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Address: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/silver3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Blk 550 Hougang Street 51, #01-168, Singapore 530550"
+                            android:textColor="#3F51B5"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="10dp">
+
+                        <TextView
+                            android:id="@+id/textView25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Telephone: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/silnum3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:onClick="showDialog2"
+                            android:text="6385 3714"
+                            android:textColor="#3F51B5" />
+                    </TableRow>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/shanyou" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shan You "
+                        android:textColor="#FFC107"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/shanweb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="www.shanyou.org.sg"
+                        android:textColor="#3F51B5"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="In FY19/20, their centre had provided counselling to 406 new cases and a total of 508 cases as well as completed a total of 1,615 counselling sessions. Clients are charged at $80 per session."
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textStyle="italic" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:id="@+id/textView27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Address: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/shanyou"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Block 5 Upper Boon Keng Road #02-15 Singapore 380005"
+                            android:textColor="#3F51B5"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Telephone: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/shannum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:onClick="showDialog3"
+                            android:text="6741 9293"
+                            android:textColor="#3F51B5" />
+                    </TableRow>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        app:srcCompat="@drawable/sgccc" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Singapore Counselling Centre"
+                        android:textColor="#FFC107"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/sccweb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="https://scc.sg"
+                        android:textColor="#3F51B5"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="They have many satisfied clients and is regarded as one of the best counselling centres in Singapore. Fees from $181.90 for 1 session. "
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textStyle="italic" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Address: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/scc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="51 Cuppage Road (behind The Centrepoint), #03-03, Singapore 229469"
+                            android:textColor="#3F51B5"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Telephone: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/sccnum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:onClick="showDialog4"
+                            android:text="6339 5411"
+                            android:textColor="#3F51B5" />
+                    </TableRow>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        app:srcCompat="@drawable/cccentre" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Counselling and Care Centre"
+                        android:textColor="#FFC107"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/cccweb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="www.counsel.org.sg"
+                        android:textColor="#3F51B5"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Counselling and Care Centre (CCC) is dedicated in providing quality counselling and psychological counselling services, psychotherapy training and consultation. Clients are charged at $40 to $150 per hour."
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textStyle="italic" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:id="@+id/textView28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Address: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/ccc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Blk 536 Upper Cross Street #05-241 Hong Lim Complex Singapore 050536"
+                            android:textColor="#3F51B5"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Telephone: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/cccnum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:onClick="showDialog5"
+                            android:text="6536 6366"
+                            android:textColor="#3F51B5" />
+                    </TableRow>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

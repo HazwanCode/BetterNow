@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="Journal" />
+    <item
+        android:id="@+id/nav_favorites"
+        android:icon="@drawable/ic_baseline_lightbulb_24"
+        android:title="Facts" />
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:title=" " />
+    <item
+        android:id="@+id/nav_search1"
+        android:icon="@drawable/ic_baseline_emoji_emotions_24"
+        android:title="Quotes" />
+    <item
+        android:id="@+id/nav_search2"
+        android:icon="@drawable/ic_baseline_more_horiz_24"
+        android:title="More" />
+
+</menu>
